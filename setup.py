@@ -90,6 +90,9 @@ def setup_package():
             "tornado",
             "twisted",
             "urllib3",
+            "fuzzywuzzy",
+            "re",
+            "itertools"
         ],
         entry_points={
             "console_scripts": [
